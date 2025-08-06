@@ -1,0 +1,40 @@
+.login-page {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.login-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-card .logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.login-card h2 {
+    color: #2575fc;
+    font-weight: 700;
+}
+
+.login-card form {
+    margin-top: 20px;
+}
+
+.login-card .form-control {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.login-card .btn {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
